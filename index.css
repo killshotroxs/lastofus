@@ -1,0 +1,311 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+  font-size: 1.5rem;
+  background-color: #f5f8ff;
+}
+
+.logo {
+  margin: 0;
+  padding: 1rem;
+  height: 2rem;
+  width: 8rem;
+}
+
+.navcon {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 1rem;
+}
+
+.sidebar {
+  position: fixed;
+  margin-top: 1rem;
+  margin-left: 2%;
+  top: 0;
+  right: 0;
+  display: none;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+  background-color: rgba(246, 249, 247, 0.788);
+  background-color: blur(20px);
+}
+
+.sidebar > .navconsidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 3%;
+}
+
+.menu-button {
+  display: none;
+}
+
+.close {
+  height: 3rem;
+  width: 3rem;
+}
+
+.menu {
+  height: 3rem;
+  width: 3rem;
+}
+
+.hero {
+  display: flex;
+  max-width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+.herocontent {
+  color: var(--Black, #000);
+  align-self: stretch;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2.5rem;
+  font-style: bold;
+  font-weight: 700;
+  line-height: 120%;
+  text-align: center;
+}
+
+.herosubcontent {
+  color: var(--Black, #000);
+  font-size: 1rem;
+  font-style: bold;
+  font-weight: 500;
+  line-height: 150%;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.herobuttons {
+  display: flex;
+  justify-content: center;
+  padding-top: 1%;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.herobuttons button {
+  display: flex;
+  padding: 0.75rem 1.5rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  border: 1px solid #000;
+  background: var(--Black, #000);
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.survival {
+  font-size: 1rem;
+  padding-left: 3%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.survival > h1 {
+  font-size: 2.2rem;
+}
+
+.survivalcontent {
+  color: var(--Black, #000);
+  font-size: 1rem;
+  font-style: bold;
+  font-weight: 500;
+  line-height: 150%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.survivalbuttons {
+  display: flex;
+  padding-top: 1%;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.survivalbuttons button {
+  display: flex;
+  padding: 0.75rem 1.5rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  border: 1px solid #000;
+  background: var(--Black, #bfbfbf);
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.survivalpic {
+  width: 97%;
+}
+
+.immersive {
+  padding-left: 3%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1rem;
+}
+
+.immersive > h1 {
+  font-size: 2rem;
+}
+
+.immersive > h3 {
+  color: var(--Black, #000);
+  font-size: 1rem;
+  font-style: bold;
+  font-weight: 500;
+  line-height: 150%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.immersive > h2 {
+  font-size: 1.2rem;
+}
+
+.immersivepic {
+  height: auto;
+  width: 96%;
+}
+
+.immersivebutton {
+  display: flex;
+  padding-top: 1%;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.immersivebutton button {
+  display: flex;
+  padding: 0.75rem 1.5rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  border: 1px solid #000;
+  background: var(--Black, #fbfbfb);
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.testimonial {
+  text-align: center;
+  padding: 8%;
+}
+
+.testimonial > h3 {
+  font-size: 1.5rem;
+}
+
+.testimonial > h4 {
+  font-size: 1rem;
+}
+
+.exploring {
+  padding-left: 2%;
+  padding-right: 2%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.exploring > h3 {
+  color: var(--Black, #000);
+  font-size: 1rem;
+  font-style: bold;
+  font-weight: 500;
+  line-height: 150%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.control {
+  padding: 2%;
+}
+
+.questions{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5%;
+    font-size: 1rem;
+}
+
+.list{
+    list-style-type: none;
+}
+
+.accordion{
+    width: 80%;
+}
+
+ul{
+    padding: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.accordion li{
+    list-style: none;
+    width: 100%;
+    margin-bottom: 10px;
+    background: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.accordion li label {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.6rem;
+    font-weight: 600;
+    cursor: pointer;
+    color: #8800c2;
+}
+
+.accordion li label span{
+    transform: rotate(90deg);
+    font-size: 2rem;
+    color: #333;
+}
+
+.accordion label + input[type="radio"]{
+    display: none;
+}
+
+.accordion .content{
+    padding: 0 1rem;
+    line-height: 1.6rem;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+
+.accordion li input:checked + .content{
+    max-height: 8rem;
+}
+
+@media (max-width: 800px) {
+
+  .hideOnMobile {
+    display: none;
+  }
+  .menu-button {
+    display: block;
+  }
+}
