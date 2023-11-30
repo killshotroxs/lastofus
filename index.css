@@ -17,12 +17,19 @@ body {
   display: flex;
   gap: 1rem;
   align-items: center;
+  text-decoration: none;
 }
 
-.navigation {
+.navcon a {
+    text-decoration: none;
+    color: #000;
+}
+
+.navigation{
   display: flex;
   justify-content: space-between;
   margin-right: 1rem;
+
 }
 
 .sidebar {
@@ -48,6 +55,16 @@ body {
   justify-content: center;
   padding-left: 3%;
 }
+
+.navconsidebar h3{
+    text-decoration: none;
+}
+
+.sidebar a{
+    text-decoration: none;
+    color: #000;
+}
+
 
 .menu-button {
   display: none;
@@ -86,6 +103,7 @@ body {
   font-weight: 700;
   line-height: 120%;
   text-align: center;
+  cursor: pointer;
 }
 
 .herosubcontent {
@@ -116,6 +134,7 @@ body {
   background: var(--Black, #000);
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  cursor: pointer;
 }
 
 .survival {
@@ -153,6 +172,7 @@ body {
   background: var(--Black, #bfbfbf);
   color: black;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  cursor: pointer;
 }
 
 .survivalpic {
@@ -204,6 +224,7 @@ body {
   background: var(--Black, #fbfbfb);
   color: black;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  cursor: pointer;
 }
 
 .testimonial {
