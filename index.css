@@ -242,8 +242,8 @@ body {
 
 .questions{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 5%;
     font-size: 1rem;
+    margin-left: 5%;
 }
 
 .list{
@@ -255,8 +255,10 @@ body {
 }
 
 ul{
-    padding: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 0;
 }
 .accordion li{
     list-style: none;
@@ -297,8 +299,14 @@ ul{
 }
 
 .accordion li input:checked + .content{
-    max-height: 8rem;
+    max-height: 22rem;
 }
+
+body h6{
+    text-align: center;
+}
+
+
 
 @media (max-width: 800px) {
 
@@ -308,4 +316,33 @@ ul{
   .menu-button {
     display: block;
   }
+}
+
+@media (min-width: 1279px){
+    .hero img {
+        width: 100%;
+        height: 100%;
+        object-position: bottom;
+        border-radius: 10px;
+      }
+
+      .hero {
+        display: flex;
+        justify-content: start;
+        margin-left:2rem ;
+      }
+
+      .heroadjustment{
+        margin-top: 5%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+      }
+
+      /* .herobuttons{
+        display: flex;
+        justify-content:center;
+      } */
+
+
 }
